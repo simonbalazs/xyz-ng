@@ -1,10 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { Template } from '@angular/compiler/src/render3/r3_ast';
 
 @Component({
   selector: 'card-grid',
-  templateUrl: './card-grid.component.html',
-  styleUrls: ['./card-grid.component.scss']
+  styleUrls: ['./card-grid.component.scss'],
+  template: `
+  <div *ngFor="let card of cards">
+    <card [src]="card"></card>
+  </div>`
 })
+
 export class CardGridComponent {
   
   constructor() { }
