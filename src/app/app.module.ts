@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CardGridComponent } from './card-grid/card-grid.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    CardGridComponent
+    CardGridComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

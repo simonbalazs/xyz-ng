@@ -1,0 +1,46 @@
+.container {
+    margin-top: 100px;
+    max-width: 960px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact {
+    flex: 7;
+}
+
+.profile {
+    flex: auto auto 100px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Cardo', serif;
+    font-size: 32px;
+    color: #242424;
+    margin-bottom: 50px;
+    margin-top: 0em;
+}
+
+p {
+    font-family: 'Cardo', serif;
+    font-size: 20px;
+    color: #242424;
+    /* line-height: 0.75em; */
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #7E7E7E;
+    letter-spacing: 0;
+}
+
+a:hover, a:visited {
+    color: #2B36FF;
+}
+
+img {
+    margin-bottom: 15px;
+}
