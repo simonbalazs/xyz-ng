@@ -1,12 +1,17 @@
+$break-large: 960px;
+
 div {
-    // width: 30%;
     background: #FFFFFF;
-    // height: 250px;
+    min-height: 250px;
     padding: 30px 30px 30px 30px;
     margin-bottom: 50px;
     box-shadow: 0 18px 27px 10px rgba(1,1,1,0.18);
     border-radius: 20px;
     border: none;
+
+    @media screen and (max-width: $break-large){
+        min-height: auto;
+    }
 }
 
 markdown {
@@ -23,12 +28,5 @@ markdown {
             color: #242424;
             /* line-height: 0.75em; */
         }
-
-        a {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
-            color: #7E7E7E;
-            letter-spacing: 0;
-        }        
     }
 }

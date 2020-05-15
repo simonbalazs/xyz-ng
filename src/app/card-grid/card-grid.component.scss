@@ -1,4 +1,10 @@
+$break-large: 960px;
+
 .card {
     flex-basis: 450px;
     padding: 5px;
+
+    @media screen and (max-width: $break-large) {
+        flex-basis: auto;
+    }
 }

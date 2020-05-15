@@ -1,5 +1,11 @@
+$break-large: 960px;
+
 card-grid {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+
+    @media screen and (max-width: $break-large) {
+        justify-content: center;
+    }
 }

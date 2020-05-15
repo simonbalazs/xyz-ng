@@ -1,8 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap");
+
+$break-large: 960px;
 
 body {
-    background-color: #FDFDFD;
-    max-width: 960px;
+    background-color: #fdfdfd;
     margin: auto;
+    max-width: 960px;
+
+    @media screen and (max-width: $break-large) {
+        max-width: 100%;
+        margin: 10%;        
+    }
+}
+
+a, a:visited {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #7E7E7E;
+    letter-spacing: 0;
+    line-height: 2em;
+}        
+
+a:hover {
+    color: #2B36FF;
+    font-weight: bold;
 }
