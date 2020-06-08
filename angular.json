@@ -121,8 +121,17 @@
               "devServerTarget": "xyz-ng:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://simonbalazs.github.io/",
+            "name": "Simon Balázs",
+            "email": "simonbalaazs@gmail.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "xyz-ng"
 }
