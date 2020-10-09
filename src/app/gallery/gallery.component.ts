@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import json from 'output/filelist.json';
 
 @Component({
   selector: 'app-gallery',
@@ -10,12 +11,9 @@ export class GalleryComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
-  imgUrls: string[] = [
-    '../assets/pic/P1170652.jpeg',
-    '../assets/pic/P1160712.jpeg',
-    '../assets/pic/IMG_7272.jpeg',
-    '../assets/pic/31900004.jpeg',
-  ]
+  imgUrls: string[] = Array.of(json).flat();
+
 }
