@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
   template: `
   <router-outlet></router-outlet>
-  <contact></contact>
-  <card-grid></card-grid>`
+  `
 })
 
 export class AppComponent {

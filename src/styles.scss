@@ -6,12 +6,6 @@ $break-large: 960px;
 body {
     background-color: #fdfdfd;
     margin: auto;
-    max-width: 960px;
-
-    @media screen and (max-width: $break-large) {
-        max-width: 100%;
-        margin: 10%;        
-    }
 }
 
 a, a:visited {

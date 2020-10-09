@@ -8,19 +8,26 @@ import { CardComponent } from './card/card.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CardGridComponent } from './card-grid/card-grid.component';
 import { ContactComponent } from './contact/contact.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { GalleryItemComponent } from './gallery/gallery-item/gallery-item.component';
+import { RouterModule, Routes } from '@angular/router';
+import { EntryComponent } from './entry/entry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     CardGridComponent,
-    ContactComponent
+    ContactComponent,
+    GalleryComponent,
+    GalleryItemComponent,
+    EntryComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    MarkdownModule.forRoot({ loader: HttpClient })
+    MarkdownModule.forRoot({ loader: HttpClient }),
   ],
   providers: [],
   bootstrap: [AppComponent]
