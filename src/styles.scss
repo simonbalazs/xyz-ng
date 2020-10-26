@@ -14,15 +14,23 @@ body {
     }
 }
 
-a, a:visited {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #7E7E7E;
-    letter-spacing: 0;
-    line-height: 2em;
+a {
+    font-size: 20px;
+    font-family: 'Cardo', serif;
+    color: #242424;
+    text-decoration: underline;
+}
+
+a:visited {
+    font-size: 20px;
+    font-family: 'Cardo', serif;
+    color: #242424;
 }        
 
 a:hover {
-    color: #2B36FF;
+    font-size: 20px;
+    font-family: 'Cardo', serif;
+    // color: #2B36FF;
+    text-decoration: none;
     font-weight: bold;
 }

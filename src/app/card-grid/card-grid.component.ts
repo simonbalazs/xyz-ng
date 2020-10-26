@@ -15,8 +15,10 @@ export class CardGridComponent {
   constructor() { }
   
   cards: string[] = [
-    '../assets/cards/card1.md',
-    '../assets/cards/card2.md',
-    '../assets/cards/card2.md',
+    '../assets/cards/metszet.md',
+    '../assets/cards/xyz.md',
+    '../assets/cards/ash.md',
+    '../assets/cards/hal9000.md',
+    '../assets/cards/krajcar.md',
   ]
 }
