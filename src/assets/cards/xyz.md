@@ -1,0 +1,2 @@
+# Portfolio
+At [Itron](https://www.linkedin.com/company/itroninc), I’m working on an Angular project. This very website is built with Angular and Bootstrap, offering a great way to discover other aspects of web development. 
