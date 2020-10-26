@@ -125,9 +125,11 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://simonbalazs.github.io/",
-            "name": "Simon Balázs",
-            "email": "simonbalaazs@gmail.com"
+            "baseHref": "https://simonbalazs.xyz/",
+            "repo": "https://github.com/simonbalazs/simonbalazs.github.io.git",
+            "branch": "master",
+            "name": "simonbalazs",
+            "cname": "simonbalazs.xyz"
           }
         }
       }
